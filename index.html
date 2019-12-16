@@ -1,23 +1,238 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <title>Neplaza</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="bootstrap/js/jquery.min.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Bibek Raut</title>
+    <link rel="shortcut icon" href="heart.ico" type="image/x-icon">
+    <link rel="icon" href="heart.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="container-fluid">
-   <h1>Hello I am Bibek</h1>
+
+
+<div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<header>
+    <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <ul id="menu" class="shadow">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</header>
+<div id="lead">
+    <div id="lead-content">
+        <h1>Bibek Raut</h1>
+        <h2>Laravel Developer</h2>
+        <a href="images/cv.pdf" class="btn-rounded-white" download>Download Resume</a>
+    </div>
+
+    <div id="lead-overlay"></div>
+
+    <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="heading">About Me</h2>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    I am a motivated and analytical developer with more than 2 years’ experience in the field of information
+                    technology, specializing in laravel and currently working as a freelancer. I am mainly interested in
+                    creating applications that are capable of solving real world problems. <br><br>
+                    Whenever my hands are not on the keyboard, I love spending time by playing guitar.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="experience" class="background-alt">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+      <div>
+          <h3>BT Group of Technology</h3>
+          <h4>CEO & Developer</h4>
+
+      </div>
+
+
+
+
+        <!--<div data-date="September 2015 – September 2016">
+            <h3>Employer Name</h3>
+            <h4>Job Title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet
+                urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi
+                dapibus porta quam laoreet placerat.
+            </p>
+        </div>-->
+    </div>
+</div>
+
+<div id="education">
+    <h2 class="heading">Education</h2>
+    <div class="education-block">
+        <h3>Bhagwant University</h3>
+        <span class="education-date">2069 - 2073</span>
+        <h4>Bachelor in Computer Engineering</h4>
+
+    </div>
+
+
+    <div class="education-block">
+        <h3>Birat Science College</h3>
+        <span class="education-date">2066-2068</span>
+        <h4>Science</h4>
+
+    </div>
+
+
+    <div class="education-block">
+        <h3>Chisapani Higher Secondary School</h3>
+        <span class="education-date">2065</span>
+        <h4>School</h4>
+
+    </div>
 
 </div>
 
+<div id="projects" class="background-alt">
+    <h2 class="heading">Personal Projects</h2>
+    <div class="container">
+        <div class="row">
+          <!-- sos -->
+          <div class="project shadow-large">
+              <div class="col-md-4">
+                  <div class="project-image">
+                      <img src="images/sos.png" class="img-responsive" style="position:relative !important;"/>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                  <div class="project-info">
+                      <h3>Women Security Application</h3>
+                      <p>
+                        The aim of this project is to develop an Android application that lets its users to send
+                      notifications in case of an emergency or a panic situation. The users can send multiple
+                      text  messages  and  emails  on  the press  of  a  single  button.  The  text  messages  and  emails  sent,
+                      along  with  the  content,  also  have  the  last  known  location  of  the  user. The  user  can  also  call  police,  fire brigade  or  ambulance
+                      directly  from  within  the  application,  if  the  nature  of  the
+                      situation demands it.<br><br> Additionally, the user of the application may allow the app to track their location. In
+                      case of any emerg
+                      ency situation, the application fetches the device’s location at about
+                      every 20 seconds and stores it in a database. This information is very useful and can
+                      be  used  in  a  variety  of  ways.  One  such  use  of  the  location  data  is  from  within  the
+                      Android  app  where  the  user  can  view  a  map  that  shows  their  location  history  over  a
+                      period of time.
+                      </p><br><br>
+                      <!-- <a href="#">View Project</a> -->
+                  </div>
+              </div>
+          </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div id="skills">
+    <h2 class="heading">Skills</h2>
+    <ul>
+
+        <li>View JS</li>
+        <li>Laravel</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>C++</li>
+        <li>C</li>
+
+
+    </ul>
+</div>
+<div class="contact1">
+    <div id="contact">
+
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/rautbibek47@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website"/>
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 copyright">
+                <p>
+                    Copyright &copy; <span id="year"></span> BIBEK RAUT
+                </p>
+            </div>
+            <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+            </div>
+            <div class="col-sm-5 social">
+                <ul>
+                    <li>
+                        <a href="https://github.com/rautbibek" target="_blank"><i class="fa fa-github"
+                                                                                    aria-hidden="true"></i></a>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 
 </html>
